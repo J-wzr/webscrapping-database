@@ -24,9 +24,9 @@ def extract(source):
 def send_email(message):
     host = "smtp.gmail.com"
     port = 465
-    SENDER = "joshuamwesigwa58@gmail.com"
-    PASSWORD = "lfdy hcrk wrpl orab"
-    RECEIVER = "annitahkyomuhendo25@gmail.com"
+    SENDER = "your email"
+    PASSWORD = "your password"
+    RECEIVER = "receiver email"
     context = ssl.create_default_context()
 
     with smtplib.SMTP_SSL(host, port, context=context) as server:
